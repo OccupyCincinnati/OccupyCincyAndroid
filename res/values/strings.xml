@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Occupy Cincinnati</string>
+    <string name="download_complete">Download complete</string>
+    <string name="error_write_ext_storage">Unable to write to External storage.</string>
+    <string name="button_donate">Donate</string>
+    <string name="button_getInvolved">Get Involved</string>
+    <string name="url_getInvolved">http://www.occupycincy.org/get-involved/</string>
+    <string name="url_donate">https://www.wepay.com/donate/91668</string>
+    <string name="url_occupy">http://www.occupycincy.org</string>
+    <string name="loading">Loading. Please wait...</string>
+    <string name="occupy_feed_file">occupycincy.org.rss2</string>
+    <string name="url_occupy_feed">http://www.occupycincy.org/?feed=rss2</string>
+    <string name="file_directory">/Android/data/&lt;package_name&gt;/files/</string>
+    <item name="autoupdate_minutes" type="integer">1</item>
+    <string name="error_not_connected">There is no network connection. Connect device to the network and try again.</string>
+
+</resources>
