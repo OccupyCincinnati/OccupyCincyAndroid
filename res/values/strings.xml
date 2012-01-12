@@ -12,7 +12,9 @@
     <string name="occupy_feed_file">occupycincy.org.rss2</string>
     <string name="url_occupy_feed">http://www.occupycincy.org/?feed=rss2</string>
     <string name="file_directory">/Android/data/&lt;package_name&gt;/files/</string>
-    <item name="autoupdate_minutes" type="integer">1</item>
+    <item name="autoupdate_minutes" type="integer">15</item>
     <string name="error_not_connected">There is no network connection. Connect device to the network and try again.</string>
+    <string name="last_updated">Last Updated: %TIME%</string>
+    <string name="last_updated_never">Never</string>
 
 </resources>

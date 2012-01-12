@@ -1,6 +1,6 @@
 /*
  	Occupy Cincinnati for Android
-    Copyright (C) 2012
+    Copyright (C) 2012 Occupy Cincinnati
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -34,6 +34,7 @@ import android.view.*;
 import android.widget.*;
 import java.io.*;
 import java.net.*;
+import java.text.DateFormat;
 import java.util.*;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
@@ -112,12 +113,22 @@ public class OccupyCincyActivity extends Activity {
     private void processFeed() {
 
     	feedItems = new ArrayList<HashMap<String, String>>();
+
+    	// default to Never
+    	String lastUpdated = getString(R.string.last_updated_never);
     	
     	File file = new File(getFullPath(getString(R.string.occupy_feed_file)));
-    	if( file.exists() )
+    	if( file.exists() ) {
     		parseOccupyFeed();
-    	
+    		lastUpdated = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.SHORT)
+    									.format(new Date(file.lastModified()));
+    	}
+
         populateBlogView();
+
+        // display Last Updated: 
+    	TextView txtLastUpdated = (TextView)findViewById(R.id.txtLastUpdated);
+    	txtLastUpdated.setText(getString(R.string.last_updated).replace("%TIME%", lastUpdated));
         
         setLoading(false);
     }
