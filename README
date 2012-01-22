@@ -10,11 +10,22 @@ Device requirements:
 * SD card / External storage.
 
 Available releases:
-* Latest: OccupyCincy_0.01beta.apk published on January 16, 2012
+
+    * Latest: OccupyCincy_0.1.apk published on January 21, 2012
+    * OccupyCincy_0.01beta.apk published on January 16, 2012
 
 To install the application on your device:
-0. Allow to install non-Market apps on your device: Settings -> Applications -> Unknown Sources.
-1. Download the latest .apk file from http://www.occupycincy.org/android/download to your device.
-2. If your browser doesn't automatically prompt you to install the app, tap the downloaded file.
-3. Follow the installation instructions.
+
+    * Use Android Market:
+      0. Open Market application on your device.
+      1. Search for "Occupy Cincinnati"
+      2. Open "Occupy Cincinnati" information page.
+      3. Click "Install" button and follow the instructions.
+
+       
+    * Install from this site:
+      0. Allow to install non-Market apps on your device: Settings -> Applications -> Unknown Sources.
+      1. Download the latest .apk file to your device by either using the link above or scanning the QR code on the right.
+      2. If your browser doesn't automatically prompt you to install the app, tap the downloaded file.
+      3. Follow the installation instructions.
 
