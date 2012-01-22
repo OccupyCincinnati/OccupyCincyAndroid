@@ -1,6 +1,6 @@
 The Occupy Cincinnati Android App is an application that runs on devices (phones, tablets) with Android operating systems.
 
-This is the first (beta) release of the application. It simply downloads the latest updates (RSS feed) from the occupycincy.org web 
+This is the first public release of the application. It simply downloads the latest updates (RSS feed) from the occupycincy.org web 
 site and displays the latest updates in a scrollable list. Users can tap any of the entries in the list, which will open a web page 
 with the detailed information about the item. The app attempts to download updates when more than 15 minutes have passed since the last update.
 
