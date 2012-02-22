@@ -1,0 +1,4 @@
+* Provide an ability for the user to initiate update of the content from the UI.
+* Provide a view (using WebView for HTML) to see the content of the entire post when user taps it.
+* Perhaps a way for user to quickly communicate with OC (email? IM?).
+ 
